@@ -1,0 +1,53 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: inter;
+    color: white;
+    
+}
+
+@font-face {
+    font-family: inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+}
+span{
+    color: hsl(75, 94%, 57%);
+    
+}
+p{
+    color: white;
+    font-size: 14px;
+}
+main{
+    background-color: hsl(0, 0%, 12%);
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    border-radius: 10px;
+    color: white;
+}
+img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+button{
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    margin: 5px auto 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: aliceblue;
+    color: brown;
+    width: 90%;
+}
